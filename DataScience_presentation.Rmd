@@ -1,0 +1,44 @@
+---
+title: "Data science for cultural heritage"
+author: "Bhavesh Shah"
+date: "September 2019"
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(ggpubr)
+library(ggforce)
+```
+
+## What is data science?
+
+- Data science is a means to describe, understand, predict and also do something with data. 
+
+```{r echo=FALSE}
+ggplot() +
+  geom_circle(aes(x0 = 1.5, y0 = 0, r = 2), size = 2, alpha = 0.2, fill = "gold", col = "white") +
+  geom_circle(aes(x0 = 3, y0 = 2, r = 2), size = 2, alpha = 0.2, fill = "blue", col = "white") +
+  geom_circle(aes(x0 = 0, y0 = 2, r = 2), size = 2, alpha = 0.2, fill = "red", col = "white") +
+  geom_label(aes(x = 0, y = 3, label = "Statistics"), label.size = 1) + 
+  geom_label(aes(x = 3, y = 3, label = "Data + Computers"), label.size = 1) + 
+  geom_label(aes(x = 1.5, y = -0.5, label = "Knowledge"), label.size = 1) + 
+  theme_no_axes()
+```
+
+## Why cultural heritage?
+
+Lots of data!
+- Text
+- Images
+- Scientific
+- Contextual
+- Descriptive 
+
+```{r cars, echo = TRUE}
+
+```
+
