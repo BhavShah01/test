@@ -32,13 +32,15 @@ ggplot() +
 ## Why cultural heritage?
 
 Lots of data!
+
 - Text
 - Images
 - Scientific
 - Contextual
 - Descriptive 
+- Social
+- etc. 
 
-```{r cars, echo = TRUE}
+And lots of knowledge 
 
-```
 
