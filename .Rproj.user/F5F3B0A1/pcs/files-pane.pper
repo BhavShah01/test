@@ -1,0 +1,9 @@
+{
+    "path" : "~/ALL SENSORS/test",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
