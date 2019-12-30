@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coastal erosion</name>
+    <Style id="line-FF5252-8556-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>8.556</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FF5252-8556-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>12.834</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FF5252-8556">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-8556-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-8556-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Coastal erosion</name>
+      <description>Potentially vulnerable to coastal erosion. For more details visit: http://map.sepa.org.uk/floodmap/map.htm</description>
+      <styleUrl>#line-FF5252-8556</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -4.8943195,55.8837644,0
+          -4.8896846,55.8820313,0
+          -4.8901996,55.8767353,0
+          -4.8914012,55.8715349,0
+          -4.8910579,55.8646962,0
+          -4.8898563,55.8573747,0
+          -4.886938,55.8483171,0
+          -4.8896211,55.8321905,0
+          -4.886938,55.8181421,0
+          -4.878355,55.8147665,0
+          -4.8687419,55.8086896,0
+          -4.8632488,55.8064708,0
+          -4.8543224,55.800875,0
+          -4.8528632,55.7932036,0
+          -4.856039,55.7886194,0
+          -4.8538074,55.7787734,0
+          -4.8519191,55.7752978,0
+          -4.8469409,55.7707598,0
+          -4.8460826,55.7679594,0
+          -4.844366,55.7642897,0
+          -4.844366,55.7580117,0
+          -4.8460826,55.7480615,0
+          -4.8526058,55.7507666,0
+          -4.8548374,55.7419741,0
+          -4.8587856,55.7367557,0
+          -4.8593006,55.7352577,0
+          -4.8598155,55.7337596,0
+          -4.8608455,55.7323581,0
+          -4.8627337,55.7301833,0
+          -4.8641924,55.7274428,0
+          -4.8720036,55.7272143,0
+          -4.8850511,55.7220173,0
+          -4.8932895,55.7182922,0
+          -4.899168,55.7147858,0
+          -4.8995527,55.709152,0
+          -4.8996804,55.7014383,0
+          -4.8877932,55.6984639,0
+          -4.8670253,55.688984,0
+          -4.823595,55.6567487,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
